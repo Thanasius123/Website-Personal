@@ -1,0 +1,95 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+nav ul li a:hover {
+    color: #00ADB5;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    color: #fff;
+    font-size: 45px;
+}
+
+
+header h1 {
+    color: #fff;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+article {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+header {
+    background-color: #fff;
+    color: black;
+}
+
+div img {
+    width: 20%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    width: 100ch;
+    line-height: 1.2;
+    padding: 4rem;
+}
+
+div p {
+    padding: 0 2rem;
+}

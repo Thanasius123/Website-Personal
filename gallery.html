@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gallery.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Thanasius
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div>
+            <center>
+            <h2>Gallery</h2>
+            </center>
+        </div>
+    </header>
+    <h1>Galeri Foto</h1>
+    <div class="gallery">
+        <img src="fotopribadi.jpg" alt="Foto 1">
+        <img src="fotokeluarga.jpg" alt="Foto 2">
+        <img src="fotokelulusan.jpg" alt="Foto 3">
+        <img src="fotodenganteman.jpg" alt="Foto 4">
+    </div>
+</body>
+</html>
